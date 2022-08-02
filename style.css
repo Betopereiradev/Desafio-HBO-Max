@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+
+  padding: 40px;
+
+
+  gap: 50px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 25%;
+
+}
+
+input {
+  font-size: 1.8rem;
+  padding: 10px;
+  height: 40px;
+  border-radius: 4px;
+  outline: 0;
+  border: solid 1px rgb(178, 178, 178);
+
+  box-shadow: 4px 4px 8px rgba(107, 107, 107, 0.1)
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+header p {
+  font-size: 1.8rem;
+}
+
+form button {
+  width: 150px;
+  height: 40px;
+  font-size: 1.8rem;
+  border-radius: 4px;
+  outline: 0;
+  border: solid 1px rgb(178, 178, 178);
+
+}
+
+form label {
+  font-size: 1.8rem;
+}
+
+.parte-login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 100%;
+
+}
+
+section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 30%;
+
+  font-size: 1.8rem;
+}
+
+section button {
+  width: 300px;
+  height: 40px;
+
+  font-size: 1.8rem;
+  border-radius: 4px;
+  outline: 0;
+  border: solid 1px rgb(178, 178, 178);
+}
